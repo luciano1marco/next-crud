@@ -6,11 +6,11 @@ interface BotaoProps{
 }
 //--------------------------------------------------
 export default function Botao(props: BotaoProps){
-    //const cor = props.cor ?? 'green'
+    const cor = props.cor ?? 'gray'//para funcionar assista aula 202 aos 7min
     
     return(
 
-       <button className={` bg-gradient-to-r from-${props.cor}-400 to-${props.cor}-700
+       <button className={` bg-gradient-to-r from-${cor}-400 to-${cor}-700
                             text-white px-4 py-2 rounded-md 
                             ${props.className}
        `}>
