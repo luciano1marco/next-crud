@@ -1,9 +1,10 @@
 import { useState } from "react"
 import Entrada from "./Entrada"
-import Cliente from "../core/Cliente"
+import Cliente from "../pages/core/Cliente"
 import Botao from "./Botao"
 //----------------------------------------------------
 interface FormularioProps{
+    
    cliente: Cliente
    clienteMudou?: (cliente:Cliente) => void
    cancelado?:() => void

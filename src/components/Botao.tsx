@@ -3,11 +3,11 @@ interface BotaoProps{
     cor?: 'green' | 'blue' | 'gray'
     children?: any
     className?: string
-    onClick?: () =>void
+    onClick?: () => void
 }
 //--------------------------------------------------
 export default function Botao(props: BotaoProps){
-    const cor = props.cor ?? 'gray'//para funcionar assista aula 202 aos 7min
+    const cor = props.cor ?? 'green'//para funcionar assista aula 202 aos 7min
     
     return(
 
